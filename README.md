@@ -1,22 +1,15 @@
-- ### Creating the SQL Database
-```CREATE DATABASE quizprodb;```
-
-- ### Inserting a Record
-```
-INSERT INTO myusers (user_id, city, email, password, role, username) VALUES (101, 'blr', 'myexample@mailinator.com', 'hello', 'teacher', 'Pritish Tripathy');
-```
-
-- ### Inserting A Course
-```dtd
-INSERT INTO mycourses (course_name) VALUES ('Core Java');
-```
-
-- ### Inserting the Topics
-```dtd
-INSERT INTO mycourse_topics (course_id, topic_name) VALUES 
-(1, 'Datatypes'),
-(1, 'Arrays'),
-(1, 'Object Oriented Programming'),
-(1, 'Multithreading'),
-(1, 'Collections');
-```
+# QuizPro Application developed for Tatpara Infolinks Pvt Ltd
+---
+- ### 1️⃣ Config moved to application.yml
+- ### ➡️ SQL Modified to 8.0.33
+- ### 2️⃣ Creating the SQL Database
+- ### ```CREATE DATABASE quizprodb;```
+- ### 3️⃣ Run the `SpringQuizProApplication`
+- ### ➡️ Tables are auto-created after `ddl-update`
+- ### 4️⃣ Insert a Record
+- ### ```INSERT INTO myusers (user_id, city, email, password, role, username) VALUES (101, 'blr', 'myexample@mailinator.com', 'hello', 'teacher', 'Pritish Tripathy');```
+- ### 5️⃣ Insert A Course
+- ### ```INSERT INTO mycourses (course_name) VALUES ('Core Java');```
+- ### 6️⃣ Inserting some sample Topics
+- ### ```INSERT INTO mycourse_topics (course_id, topic_name) VALUES (1, 'Datatypes'), (1, 'Arrays'), (1, 'Object Oriented Programming'), (1, 'Multithreading'), (1, 'Collections');```
+- ### 7️⃣ Login, Enter OTP then navigate along with Instructions.
